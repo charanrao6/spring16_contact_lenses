@@ -1,4 +1,4 @@
-# spring16_contact_lenses
+# spring16_Ratings
 # OVERVIEW
 Many e-commerce websites don’t collect user ratings, or do not provide this data to our website. Hence, it is difficult to determine whether to display the product or not. Simply removing all items without ratings could lead to high opportunity costs, hence, another solution is required. Websites of Electronic gadgets listings decide if they want to pick a particular listing from an e-commerce website and display on their own website. Selection of the right items to list is essential to customers selecting products for purchase, therefore leading to higher revenues.  In this research paper we predict the High - Low rating for any new electronic gadget listing to be introduced on the aggregator website monitored by bargain. The same model can also be used to predict the High - Low Rating on websites that do not support the feature of Average Rating.
 # Introduction:
@@ -29,9 +29,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.io.*;
 public class Mining {
-
 public static void main(String[] args) {
-
 Map<String,Double> map = new HashMap<String,Double>();
 map.put("canon", 0);
 map.put("fujifilm", 0);
